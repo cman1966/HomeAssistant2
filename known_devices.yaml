@@ -1,0 +1,24 @@
+
+craigs_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: craigs iphone
+  picture:
+  track: true
+
+ios_6559b5b2532044a8bd50fb1df879b207:
+  hide_if_away: false
+  icon:
+  mac:
+  name: ios
+  picture:
+  track: true
+
+ios_f3ea366f1c3b457293807d11337b6394:
+  hide_if_away: false
+  icon:
+  mac:
+  name: ios
+  picture:
+  track: true

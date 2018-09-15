@@ -1,0 +1,103 @@
+zone.home:
+  latitude: 38.73611943118898
+  longitude: -77.35570378049468
+sensor.aeotec_zw100_multisensor_6_temperature:
+  friendly_name: Basement Temperature
+sensor.aeotec_zw100_multisensor_6_luminance:
+  friendly_name: Basement Luminance
+sensor.aeotec_zw100_multisensor_6_ultraviolet:
+  friendly_name: Basement Ultraviolet
+sensor.aeotec_zw100_multisensor_6_relative_humidity:
+  friendly_name: Basement Relative Humidity
+zwave.aeotec_zw100_multisensor_6:
+  friendly_name: Basement Aeotec ZW100 MultiSensor 6
+  hidden: true
+zwave.aeotec_zw090_zstick_gen5_us:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_level:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_type:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_burglar:
+  hidden: true
+binary_sensor.aeotec_zw100_multisensor_6_sensor:
+  hidden: true
+sensor.yr_symbol:
+  entity_picture: //api.met.no/weatherapi/weathericon/1.1/?symbol=3;content_type=image/png
+  friendly_name: Weather
+media_player.rxv675_a5f40e:
+  friendly_name: Yamaha
+  icon: mdi:music
+media_player.rxv675_a5f40e_zone_2:
+  friendly_name: Yamaha Zone 2
+  hidden: true
+sensor.iphone_battery_level:
+  hidden: true
+sensor.iphone_battery_state:
+  hidden: true
+switch.cchristmandell:
+  icon: mdi:laptop
+switch.unraid:
+  icon: mdi:desktop-tower
+switch.wifiextender:
+  icon: mdi:router-wireless
+switch.cchristmanpc:
+  icon: mdi:desktop-tower
+switch.fedoravm:
+  icon: mdi:desktop-tower
+switch.switch:
+  icon: mdi:switch
+switch.xboxone:
+  icon: mdi:xbox
+sensor.pws_dewpoint_c:
+  hidden: true
+group.all_switches: {}
+zone.unnamed_zone:
+  friendly_name: Work
+group.media_players:
+  entity_id:
+  - media_player.basement
+  - media_player.bedroom
+  - media_player.rxv675_a5f40e
+  - media_player.rxv675_a5f40e_zone_2
+  - media_player.plex
+group.weather: {}
+group.default_view: {}
+media_player.yamaha_receiver_zone_2:
+  hidden: true
+group.digitallogger: {}
+group.astro:
+  entity_id:
+  - sun.sun
+  - sun.next_dawn
+  - sensor.moon
+  - sensor.yweather_current
+  - camera.pod_cam
+  - camera.clear_dark_skies
+  - camera.weather_radar
+  - switch.powerswitch
+  - switch.powerswitch_canon
+  - switch.powerswitch_dew_heater
+  - switch.powerswitch_focuser
+  - switch.powerswitch_g11_mount
+  - switch.powerswitch_usb_hub
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_level:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_type:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_burglar:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_sourcenodeid:
+  hidden: true
+binary_sensor.hank_hkzwdws01_doorwindow_sensor_sensor:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_level_2:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_type_2:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_burglar_2:
+  hidden: true
+sensor.hank_hkzwdws01_doorwindow_sensor_sourcenodeid_2:
+  hidden: true
